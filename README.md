@@ -12,6 +12,10 @@
   <img alt="License" src="https://img.shields.io/badge/license-MIT-green">
 </p>
 
+<p align="center">
+  <img src="docs/demo.gif" alt="cursor-usage demo — monthly summary and per-day breakdown" width="760">
+</p>
+
 ---
 
 Cursor shows your usage on its web dashboard, but there's no official way to get
