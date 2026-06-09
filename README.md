@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  <img src="docs/demo.gif" alt="cursor-usage demo — monthly summary and per-day breakdown" width="760">
+  <img src="https://raw.githubusercontent.com/javaisbetterthanpython/cursor-usage/main/docs/demo.gif" alt="cursor-usage demo — monthly summary and per-day breakdown" width="760">
 </p>
 
 ---
