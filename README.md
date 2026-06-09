@@ -50,7 +50,7 @@ gpt-5.4-high                             43.65     4,069,043   1,041,967
 ## 🚀 Quickstart
 
 ```bash
-pip install cursor-usage-cli      # or: pip install . from a clone
+pip install cursor-usage      # or: pip install . from a clone
 cursor-usage                      # summary for the current billing month
 ```
 
@@ -159,9 +159,9 @@ cursor-usage
 ## 🛠️ Install options
 
 ```bash
-pip install cursor-usage-cli                 # from PyPI (once published)
+pip install cursor-usage                 # from PyPI (once published)
 pip install .                                # from a local clone
-pip install "cursor-usage-cli[keyring]"      # + OS-keyring lookup on Linux/Windows
+pip install "cursor-usage[keyring]"      # + OS-keyring lookup on Linux/Windows
 ```
 
 Requires Python 3.8+.

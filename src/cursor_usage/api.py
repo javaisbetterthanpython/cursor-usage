@@ -18,7 +18,7 @@ import urllib.request
 from . import __version__
 
 BASE = "https://cursor.com"
-USER_AGENT = "cursor-usage-cli/%s" % __version__
+USER_AGENT = "cursor-usage/%s" % __version__
 
 
 class CursorAPIError(RuntimeError):

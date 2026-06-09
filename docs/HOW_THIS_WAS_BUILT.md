@@ -1,6 +1,6 @@
 # How this tool was built (a guide for the next LLM/engineer)
 
-This document is a reproducible recipe for rebuilding `cursor-usage-cli` from
+This document is a reproducible recipe for rebuilding `cursor-usage` from
 scratch — including the dead-ends — so another agent can recreate or extend it
 without re-deriving everything. Nothing here is secret; it's all observable by
 probing Cursor's own endpoints with a session you already own.

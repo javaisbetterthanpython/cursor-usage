@@ -7,7 +7,7 @@ package. Replace `your-username` with your GitHub/PyPI account.
 
 - In `pyproject.toml`: set the `Homepage`/`Issues` URLs (replace `your-username`).
   (`authors` is intentionally generic — fill it in only if you want.)
-- The PyPI distribution name is `cursor-usage-cli`; the import package is
+- The PyPI distribution name is `cursor-usage`; the import package is
   `cursor_usage`; the command is `cursor-usage`. Change all three together if you
   rename.
 
@@ -24,7 +24,7 @@ cursor-usage --help
 ## 3. Create the public GitHub repo
 
 ```bash
-gh repo create your-username/cursor-usage-cli --public --source=. --remote=origin \
+gh repo create your-username/cursor-usage --public --source=. --remote=origin \
   --description "Cross-platform CLI for your Cursor (cursor.com) usage & spend" --push
 ```
 
@@ -40,7 +40,7 @@ twine upload dist/*             # needs a PyPI API token (recommended via ~/.pyp
 Then anyone can:
 
 ```bash
-pip install cursor-usage-cli
+pip install cursor-usage
 cursor-usage --by-day
 ```
 

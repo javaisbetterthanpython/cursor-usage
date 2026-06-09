@@ -70,7 +70,7 @@ def build_parser():
                    help="events per API page when paginating (default: 1000)")
     p.add_argument("-v", "--verbose", action="store_true", help="log the token source")
     p.add_argument("-V", "--version", action="version",
-                   version="cursor-usage-cli %s" % __version__)
+                   version="cursor-usage %s" % __version__)
     return p
 
 

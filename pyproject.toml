@@ -3,13 +3,13 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "cursor-usage-cli"
+name = "cursor-usage"
 version = "0.1.0"
 description = "Cross-platform CLI to read your Cursor (cursor.com) usage, spend, and per-event logs."
 readme = "README.md"
 license = { text = "MIT" }
 requires-python = ">=3.8"
-authors = [{ name = "cursor-usage-cli contributors" }]
+authors = [{ name = "cursor-usage contributors" }]
 keywords = ["cursor", "usage", "spend", "cli", "ai", "tokens", "llm"]
 classifiers = [
     "Development Status :: 4 - Beta",
