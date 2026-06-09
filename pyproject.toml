@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cursor-usage-cli"
+version = "0.1.0"
+description = "Cross-platform CLI to read your Cursor (cursor.com) usage, spend, and per-event logs."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.8"
+authors = [{ name = "cursor-usage-cli contributors" }]
+keywords = ["cursor", "usage", "spend", "cli", "ai", "tokens", "llm"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Topic :: Utilities",
+]
+dependencies = []
+
+[project.optional-dependencies]
+# Optional: lets the tool read the session token from the OS keyring on
+# Linux/Windows. macOS works without it (via the `security` CLI), and the
+# Cursor IDE SQLite state DB works everywhere with no extra dependency.
+keyring = ["keyring>=24"]
+
+[project.scripts]
+cursor-usage = "cursor_usage.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/javaisbetterthanpython/cursor-usage"
+Issues = "https://github.com/javaisbetterthanpython/cursor-usage/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
